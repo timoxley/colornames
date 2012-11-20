@@ -1,0 +1,17 @@
+{
+  "name": "colors",
+  "repo": "timoxley/colors",
+  "description": "Map of CSS colors/names",
+  "version": "0.0.1",
+  "keywords": [],
+  "dependencies": {},
+  "development": {
+    "component/domify": "*",
+    "component/classes": "*"
+  },
+  "license": "MIT",
+  "scripts": [
+    "index.js",
+    "colors.js"
+  ]
+}

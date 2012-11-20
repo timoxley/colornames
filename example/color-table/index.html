@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="../../build/build.css" >
+    <link href="//netdna.bootstrapcdn.com/twitter-bootstrap/2.2.1/css/bootstrap.no-responsive.no-icons.min.css" rel="stylesheet">
+  </head>
+  <body class="light">
+  <div class="navbar navbar-fixed-bottom">
+    <div class="navbar-inner">
+      <div class="container-fluid">
+        <a class="brand" href="#">Colors</a>
+        <ul class="nav pull-right"><li><a href="#" id="toggle" class="btn">Toggle Background Color</a></li></ul>
+      </div>
+    </div>
+  </div>
+  <div class="row" id="content"></div>
+  <script src="../../build/build.js"></script>
+  <style>
+    .color {
+      float: left;
+      height: 70px;
+      width: 70px;
+      text-align: center;
+      padding: 50px;
+      margin: 10px;
+    }
+    .info {
+      opacity: 0;
+      transition: opacity 1s ease-out;
+    }
+
+    .color:hover .info {
+      opacity: 1;
+      transition: opacity 0.1s ease-in;
+    }
+    .color .badge {
+      margin-bottom: 5px;
+    }
+
+    .light {
+      background-color: white;
+      transition: background-color 0.2s ease-out;
+      -webkit-transition: background-color 0.2s ease-out;
+    }
+
+    .dark {
+      background-color: black;
+      transition: background-color 0.2s ease-out;
+      -webkit-transition: background-color 0.2s ease-out;
+    }
+  </style>
+  <script>
+    var allColors = require('colors').all
+    var domify = require('component-domify')
+    var classes = require('component-classes')
+
+    var toggle = document.getElementById('toggle')
+    var content = document.getElementById('content')
+
+    toggle.addEventListener('click', function(e) {
+      e.preventDefault()
+      classes(document.body).toggle('dark')
+      classes(document.body).toggle('light')
+    })
+
+    function render(colorList) {
+      allColors.forEach(renderOne)
+    }
+    function renderOne(color) {
+      content.appendChild(domify([
+        '<div class="color" style="background-color: '+color.value+'">',
+        '  <div class="info">',
+        '    <div class="badge">'+color.name+'</div>',
+//        color.named && '<span class="badge"><small>CSS &#10003;</small></span>',
+//        color.vga && '<span class="badge"><small>VGA &#10003;</small></span>',
+        '  </div>',
+        '</div>'
+      ].join('')))
+    }
+
+    render(allColors)
+  </script>
+  </body>
+</html>
+
+
