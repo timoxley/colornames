@@ -5,12 +5,12 @@ module.exports = [
   },
   {
     "value":"#DC143C",
-    "named":true,
+    "css":true,
     "name":"crimson"
   },
   {
     "value":"#FFB6C1",
-    "named":true,
+    "css":true,
     "name":"lightpink"
   },
   {
@@ -31,7 +31,7 @@ module.exports = [
   },
   {
     "value":"#FFC0CB",
-    "named":true,
+    "css":true,
     "name":"pink"
   },
   {
@@ -52,7 +52,7 @@ module.exports = [
   },
   {
     "value":"#DB7093",
-    "named":true,
+    "css":true,
     "name":"palevioletred"
   },
   {
@@ -77,7 +77,7 @@ module.exports = [
   },
   {
     "value":"#FFF0F5",
-    "named":true,
+    "css":true,
     "name":"lavenderblush"
   },
   {
@@ -110,7 +110,7 @@ module.exports = [
   },
   {
     "value":"#FF69B4",
-    "named":true,
+    "css":true,
     "name":"hotpink"
   },
   {
@@ -139,7 +139,7 @@ module.exports = [
   },
   {
     "value":"#FF1493",
-    "named":true,
+    "css":true,
     "name":"deeppink"
   },
   {
@@ -172,7 +172,7 @@ module.exports = [
   },
   {
     "value":"#C71585",
-    "named":true,
+    "css":true,
     "name":"mediumvioletred"
   },
   {
@@ -181,7 +181,7 @@ module.exports = [
   },
   {
     "value":"#DA70D6",
-    "named":true,
+    "css":true,
     "name":"orchid"
   },
   {
@@ -202,7 +202,7 @@ module.exports = [
   },
   {
     "value":"#D8BFD8",
-    "named":true,
+    "css":true,
     "name":"thistle"
   },
   {
@@ -239,12 +239,12 @@ module.exports = [
   },
   {
     "value":"#DDA0DD",
-    "named":true,
+    "css":true,
     "name":"plum"
   },
   {
     "value":"#EE82EE",
-    "named":true,
+    "css":true,
     "name":"violet"
   },
   {
@@ -255,7 +255,7 @@ module.exports = [
   {
     "value":"#FF00FF",
     "vga":true,
-    "named":true,
+    "css":true,
     "name":"fuchsia"
   },
   {
@@ -272,18 +272,18 @@ module.exports = [
   },
   {
     "value":"#8B008B",
-    "named":true,
+    "css":true,
     "name":"darkmagenta"
   },
   {
     "value":"#800080",
     "vga":true,
-    "named":true,
+    "css":true,
     "name":"purple"
   },
   {
     "value":"#BA55D3",
-    "named":true,
+    "css":true,
     "name":"mediumorchid"
   },
   {
@@ -304,12 +304,12 @@ module.exports = [
   },
   {
     "value":"#9400D3",
-    "named":true,
+    "css":true,
     "name":"darkviolet"
   },
   {
     "value":"#9932CC",
-    "named":true,
+    "css":true,
     "name":"darkorchid"
   },
   {
@@ -330,12 +330,12 @@ module.exports = [
   },
   {
     "value":"#4B0082",
-    "named":true,
+    "css":true,
     "name":"indigo"
   },
   {
     "value":"#8A2BE2",
-    "named":true,
+    "css":true,
     "name":"blueviolet"
   },
   {
@@ -356,7 +356,7 @@ module.exports = [
   },
   {
     "value":"#9370DB",
-    "named":true,
+    "css":true,
     "name":"mediumpurple"
   },
   {
@@ -377,7 +377,7 @@ module.exports = [
   },
   {
     "value":"#483D8B",
-    "named":true,
+    "css":true,
     "name":"darkslateblue"
   },
   {
@@ -386,12 +386,12 @@ module.exports = [
   },
   {
     "value":"#7B68EE",
-    "named":true,
+    "css":true,
     "name":"mediumslateblue"
   },
   {
     "value":"#6A5ACD",
-    "named":true,
+    "css":true,
     "name":"slateblue"
   },
   {
@@ -412,18 +412,18 @@ module.exports = [
   },
   {
     "value":"#F8F8FF",
-    "named":true,
+    "css":true,
     "name":"ghostwhite"
   },
   {
     "value":"#E6E6FA",
-    "named":true,
+    "css":true,
     "name":"lavender"
   },
   {
     "value":"#0000FF",
     "vga":true,
-    "named":true,
+    "css":true,
     "name":"blue"
   },
   {
@@ -436,7 +436,7 @@ module.exports = [
   },
   {
     "value":"#0000CD",
-    "named":true,
+    "css":true,
     "name":"mediumblue"
   },
   {
@@ -445,18 +445,18 @@ module.exports = [
   },
   {
     "value":"#00008B",
-    "named":true,
+    "css":true,
     "name":"darkblue"
   },
   {
     "value":"#000080",
     "vga":true,
-    "named":true,
+    "css":true,
     "name":"navy"
   },
   {
     "value":"#191970",
-    "named":true,
+    "css":true,
     "name":"midnightblue"
   },
   {
@@ -465,7 +465,7 @@ module.exports = [
   },
   {
     "value":"#4169E1",
-    "named":true,
+    "css":true,
     "name":"royalblue"
   },
   {
@@ -486,12 +486,12 @@ module.exports = [
   },
   {
     "value":"#6495ED",
-    "named":true,
+    "css":true,
     "name":"cornflowerblue"
   },
   {
     "value":"#B0C4DE",
-    "named":true,
+    "css":true,
     "name":"lightsteelblue"
   },
   {
@@ -512,12 +512,12 @@ module.exports = [
   },
   {
     "value":"#778899",
-    "named":true,
+    "css":true,
     "name":"lightslategray"
   },
   {
     "value":"#708090",
-    "named":true,
+    "css":true,
     "name":"slategray"
   },
   {
@@ -542,7 +542,7 @@ module.exports = [
   },
   {
     "value":"#1E90FF",
-    "named":true,
+    "css":true,
     "name":"dodgerblue"
   },
   {
@@ -559,12 +559,12 @@ module.exports = [
   },
   {
     "value":"#F0F8FF",
-    "named":true,
+    "css":true,
     "name":"aliceblue"
   },
   {
     "value":"#4682B4",
-    "named":true,
+    "css":true,
     "name":"steelblue"
   },
   {
@@ -585,7 +585,7 @@ module.exports = [
   },
   {
     "value":"#87CEFA",
-    "named":true,
+    "css":true,
     "name":"lightskyblue"
   },
   {
@@ -622,7 +622,7 @@ module.exports = [
   },
   {
     "value":"#87CEEB",
-    "named":true,
+    "css":true,
     "name":"skyblue"
   },
   {
@@ -631,7 +631,7 @@ module.exports = [
   },
   {
     "value":"#00BFFF",
-    "named":true,
+    "css":true,
     "name":"deepskyblue"
   },
   {
@@ -652,7 +652,7 @@ module.exports = [
   },
   {
     "value":"#ADD8E6",
-    "named":true,
+    "css":true,
     "name":"lightblue"
   },
   {
@@ -673,7 +673,7 @@ module.exports = [
   },
   {
     "value":"#B0E0E6",
-    "named":true,
+    "css":true,
     "name":"powderblue"
   },
   {
@@ -710,12 +710,12 @@ module.exports = [
   },
   {
     "value":"#5F9EA0",
-    "named":true,
+    "css":true,
     "name":"cadetblue"
   },
   {
     "value":"#00CED1",
-    "named":true,
+    "css":true,
     "name":"darkturquoise"
   },
   {
@@ -724,7 +724,7 @@ module.exports = [
   },
   {
     "value":"#F0FFFF",
-    "named":true,
+    "css":true,
     "name":"azure"
   },
   {
@@ -745,7 +745,7 @@ module.exports = [
   },
   {
     "value":"#E0FFFF",
-    "named":true,
+    "css":true,
     "name":"lightcyan"
   },
   {
@@ -770,7 +770,7 @@ module.exports = [
   },
   {
     "value":"#AEEEEE",
-    "named":true,
+    "css":true,
     "name":"paleturquoise"
   },
   {
@@ -783,7 +783,7 @@ module.exports = [
   },
   {
     "value":"#2F4F4F",
-    "named":true,
+    "css":true,
     "name":"darkslategray"
   },
   {
@@ -808,7 +808,7 @@ module.exports = [
   },
   {
     "value":"#00FFFF",
-    "named":true,
+    "css":true,
     "name":"aqua"
   },
   {
@@ -825,23 +825,23 @@ module.exports = [
   },
   {
     "value":"#008B8B",
-    "named":true,
+    "css":true,
     "name":"darkcyan"
   },
   {
     "value":"#008080",
     "vga":true,
-    "named":true,
+    "css":true,
     "name":"teal"
   },
   {
     "value":"#48D1CC",
-    "named":true,
+    "css":true,
     "name":"mediumturquoise"
   },
   {
     "value":"#20B2AA",
-    "named":true,
+    "css":true,
     "name":"lightseagreen"
   },
   {
@@ -850,7 +850,7 @@ module.exports = [
   },
   {
     "value":"#40E0D0",
-    "named":true,
+    "css":true,
     "name":"turquoise"
   },
   {
@@ -867,7 +867,7 @@ module.exports = [
   },
   {
     "value":"#7FFFD4",
-    "named":true,
+    "css":true,
     "name":"aquamarine"
   },
   {
@@ -880,7 +880,7 @@ module.exports = [
   },
   {
     "value":"#66CDAA",
-    "named":true,
+    "css":true,
     "name":"mediumaquamarine"
   },
   {
@@ -889,17 +889,17 @@ module.exports = [
   },
   {
     "value":"#00FA9A",
-    "named":true,
+    "css":true,
     "name":"mediumspringgreen"
   },
   {
     "value":"#F5FFFA",
-    "named":true,
+    "css":true,
     "name":"mintcream"
   },
   {
     "value":"#00FF7F",
-    "named":true,
+    "css":true,
     "name":"springgreen"
   },
   {
@@ -916,7 +916,7 @@ module.exports = [
   },
   {
     "value":"#3CB371",
-    "named":true,
+    "css":true,
     "name":"mediumseagreen"
   },
   {
@@ -937,7 +937,7 @@ module.exports = [
   },
   {
     "value":"#2E8B57",
-    "named":true,
+    "css":true,
     "name":"seagreen"
   },
   {
@@ -958,7 +958,7 @@ module.exports = [
   },
   {
     "value":"#F0FFF0",
-    "named":true,
+    "css":true,
     "name":"honeydew"
   },
   {
@@ -975,7 +975,7 @@ module.exports = [
   },
   {
     "value":"#8FBC8F",
-    "named":true,
+    "css":true,
     "name":"darkseagreen"
   },
   {
@@ -996,7 +996,7 @@ module.exports = [
   },
   {
     "value":"#98FB98",
-    "named":true,
+    "css":true,
     "name":"palegreen"
   },
   {
@@ -1009,7 +1009,7 @@ module.exports = [
   },
   {
     "value":"#90EE90",
-    "named":true,
+    "css":true,
     "name":"lightgreen"
   },
   {
@@ -1022,12 +1022,12 @@ module.exports = [
   },
   {
     "value":"#32CD32",
-    "named":true,
+    "css":true,
     "name":"limegreen"
   },
   {
     "value":"#228B22",
-    "named":true,
+    "css":true,
     "name":"forestgreen"
   },
   {
@@ -1038,7 +1038,7 @@ module.exports = [
   {
     "value":"#00FF00",
     "vga":true,
-    "named":true,
+    "css":true,
     "name":"lime"
   },
   {
@@ -1056,12 +1056,12 @@ module.exports = [
   {
     "value":"#008000",
     "vga":true,
-    "named":true,
+    "css":true,
     "name":"green"
   },
   {
     "value":"#006400",
-    "named":true,
+    "css":true,
     "name":"darkgreen"
   },
   {
@@ -1070,7 +1070,7 @@ module.exports = [
   },
   {
     "value":"#7CFC00",
-    "named":true,
+    "css":true,
     "name":"lawngreen"
   },
   {
@@ -1079,7 +1079,7 @@ module.exports = [
   },
   {
     "value":"#7FFF00",
-    "named":true,
+    "css":true,
     "name":"chartreuse"
   },
   {
@@ -1096,7 +1096,7 @@ module.exports = [
   },
   {
     "value":"#ADFF2F",
-    "named":true,
+    "css":true,
     "name":"greenyellow"
   },
   {
@@ -1117,12 +1117,12 @@ module.exports = [
   },
   {
     "value":"#556B2F",
-    "named":true,
+    "css":true,
     "name":"darkolivegreen"
   },
   {
     "value":"#6B8E23",
-    "named":true,
+    "css":true,
     "name":"olivedrab"
   },
   {
@@ -1139,7 +1139,7 @@ module.exports = [
   },
   {
     "value":"#9ACD32",
-    "named":true,
+    "css":true,
     "name":"yellowgreen"
   },
   {
@@ -1152,7 +1152,7 @@ module.exports = [
   },
   {
     "value":"#FFFFF0",
-    "named":true,
+    "css":true,
     "name":"ivory"
   },
   {
@@ -1169,7 +1169,7 @@ module.exports = [
   },
   {
     "value":"#F5F5DC",
-    "named":true,
+    "css":true,
     "name":"beige"
   },
   {
@@ -1178,7 +1178,7 @@ module.exports = [
   },
   {
     "value":"#FFFFE0",
-    "named":true,
+    "css":true,
     "name":"lightyellow"
   },
   {
@@ -1195,7 +1195,7 @@ module.exports = [
   },
   {
     "value":"#FAFAD2",
-    "named":true,
+    "css":true,
     "name":"lightgoldenrodyellow"
   },
   {
@@ -1206,7 +1206,7 @@ module.exports = [
   {
     "value":"#FFFF00",
     "vga":true,
-    "named":true,
+    "css":true,
     "name":"yellow"
   },
   {
@@ -1228,12 +1228,12 @@ module.exports = [
   {
     "value":"#808000",
     "vga":true,
-    "named":true,
+    "css":true,
     "name":"olive"
   },
   {
     "value":"#BDB76B",
-    "named":true,
+    "css":true,
     "name":"darkkhaki"
   },
   {
@@ -1254,12 +1254,12 @@ module.exports = [
   },
   {
     "value":"#F0E68C",
-    "named":true,
+    "css":true,
     "name":"khaki"
   },
   {
     "value":"#EEE8AA",
-    "named":true,
+    "css":true,
     "name":"palegoldenrod"
   },
   {
@@ -1268,7 +1268,7 @@ module.exports = [
   },
   {
     "value":"#FFFACD",
-    "named":true,
+    "css":true,
     "name":"lemonchiffon"
   },
   {
@@ -1309,7 +1309,7 @@ module.exports = [
   },
   {
     "value":"#FFD700",
-    "named":true,
+    "css":true,
     "name":"gold"
   },
   {
@@ -1330,7 +1330,7 @@ module.exports = [
   },
   {
     "value":"#FFF8DC",
-    "named":true,
+    "css":true,
     "name":"cornsilk"
   },
   {
@@ -1347,7 +1347,7 @@ module.exports = [
   },
   {
     "value":"#DAA520",
-    "named":true,
+    "css":true,
     "name":"goldenrod"
   },
   {
@@ -1368,7 +1368,7 @@ module.exports = [
   },
   {
     "value":"#B8860B",
-    "named":true,
+    "css":true,
     "name":"darkgoldenrod"
   },
   {
@@ -1393,7 +1393,7 @@ module.exports = [
   },
   {
     "value":"#FF8000",
-    "named":true,
+    "css":true,
     "name":"orange"
   },
   {
@@ -1410,17 +1410,17 @@ module.exports = [
   },
   {
     "value":"#FFFAF0",
-    "named":true,
+    "css":true,
     "name":"floralwhite"
   },
   {
     "value":"#FDF5E6",
-    "named":true,
+    "css":true,
     "name":"oldlace"
   },
   {
     "value":"#F5DEB3",
-    "named":true,
+    "css":true,
     "name":"wheat"
   },
   {
@@ -1441,17 +1441,17 @@ module.exports = [
   },
   {
     "value":"#FFE4B5",
-    "named":true,
+    "css":true,
     "name":"moccasin"
   },
   {
     "value":"#FFEFD5",
-    "named":true,
+    "css":true,
     "name":"papayawhip"
   },
   {
     "value":"#FFEBCD",
-    "named":true,
+    "css":true,
     "name":"blanchedalmond"
   },
   {
@@ -1460,7 +1460,7 @@ module.exports = [
   },
   {
     "value":"#FFDEAD",
-    "named":true,
+    "css":true,
     "name":"navajowhite"
   },
   {
@@ -1481,7 +1481,7 @@ module.exports = [
   },
   {
     "value":"#D2B48C",
-    "named":true,
+    "css":true,
     "name":"tan"
   },
   {
@@ -1494,7 +1494,7 @@ module.exports = [
   },
   {
     "value":"#FAEBD7",
-    "named":true,
+    "css":true,
     "name":"antiquewhite"
   },
   {
@@ -1515,7 +1515,7 @@ module.exports = [
   },
   {
     "value":"#DEB887",
-    "named":true,
+    "css":true,
     "name":"burlywood"
   },
   {
@@ -1540,7 +1540,7 @@ module.exports = [
   },
   {
     "value":"#FFE4C4",
-    "named":true,
+    "css":true,
     "name":"bisque"
   },
   {
@@ -1565,7 +1565,7 @@ module.exports = [
   },
   {
     "value":"#FF8C00",
-    "named":true,
+    "css":true,
     "name":"darkorange"
   },
   {
@@ -1598,7 +1598,7 @@ module.exports = [
   },
   {
     "value":"#CD853F",
-    "named":true,
+    "css":true,
     "name":"peru"
   },
   {
@@ -1607,7 +1607,7 @@ module.exports = [
   },
   {
     "value":"#FAF0E6",
-    "named":true,
+    "css":true,
     "name":"linen"
   },
   {
@@ -1616,7 +1616,7 @@ module.exports = [
   },
   {
     "value":"#FFDAB9",
-    "named":true,
+    "css":true,
     "name":"peachpuff"
   },
   {
@@ -1637,7 +1637,7 @@ module.exports = [
   },
   {
     "value":"#FFF5EE",
-    "named":true,
+    "css":true,
     "name":"seashell"
   },
   {
@@ -1654,7 +1654,7 @@ module.exports = [
   },
   {
     "value":"#F4A460",
-    "named":true,
+    "css":true,
     "name":"sandybrown"
   },
   {
@@ -1663,7 +1663,7 @@ module.exports = [
   },
   {
     "value":"#D2691E",
-    "named":true,
+    "css":true,
     "name":"chocolate"
   },
   {
@@ -1684,7 +1684,7 @@ module.exports = [
   },
   {
     "value":"#8B4513",
-    "named":true,
+    "css":true,
     "name":"saddlebrown"
   },
   {
@@ -1705,7 +1705,7 @@ module.exports = [
   },
   {
     "value":"#A0522D",
-    "named":true,
+    "css":true,
     "name":"sienna"
   },
   {
@@ -1730,7 +1730,7 @@ module.exports = [
   },
   {
     "value":"#FFA07A",
-    "named":true,
+    "css":true,
     "name":"lightsalmon"
   },
   {
@@ -1747,7 +1747,7 @@ module.exports = [
   },
   {
     "value":"#FF7F50",
-    "named":true,
+    "css":true,
     "name":"coral"
   },
   {
@@ -1756,7 +1756,7 @@ module.exports = [
   },
   {
     "value":"#FF4500",
-    "named":true,
+    "css":true,
     "name":"orangered"
   },
   {
@@ -1777,7 +1777,7 @@ module.exports = [
   },
   {
     "value":"#E9967A",
-    "named":true,
+    "css":true,
     "name":"darksalmon"
   },
   {
@@ -1822,7 +1822,7 @@ module.exports = [
   },
   {
     "value":"#FF6347",
-    "named":true,
+    "css":true,
     "name":"tomato"
   },
   {
@@ -1839,7 +1839,7 @@ module.exports = [
   },
   {
     "value":"#FA8072",
-    "named":true,
+    "css":true,
     "name":"salmon"
   },
   {
@@ -1848,7 +1848,7 @@ module.exports = [
   },
   {
     "value":"#FFE4E1",
-    "named":true,
+    "css":true,
     "name":"mistyrose"
   },
   {
@@ -1869,7 +1869,7 @@ module.exports = [
   },
   {
     "value":"#FFFAFA",
-    "named":true,
+    "css":true,
     "name":"snow"
   },
   {
@@ -1886,7 +1886,7 @@ module.exports = [
   },
   {
     "value":"#BC8F8F",
-    "named":true,
+    "css":true,
     "name":"rosybrown"
   },
   {
@@ -1907,12 +1907,12 @@ module.exports = [
   },
   {
     "value":"#F08080",
-    "named":true,
+    "css":true,
     "name":"lightcoral"
   },
   {
     "value":"#CD5C5C",
-    "named":true,
+    "css":true,
     "name":"indianred"
   },
   {
@@ -1933,7 +1933,7 @@ module.exports = [
   },
   {
     "value":"#A52A2A",
-    "named":true,
+    "css":true,
     "name":"brown"
   },
   {
@@ -1954,7 +1954,7 @@ module.exports = [
   },
   {
     "value":"#B22222",
-    "named":true,
+    "css":true,
     "name":"firebrick"
   },
   {
@@ -1981,7 +1981,7 @@ module.exports = [
   {
     "value":"#FF0000",
     "vga":true,
-    "named":true,
+    "css":true,
     "name":"red"
   },
   {
@@ -1998,13 +1998,13 @@ module.exports = [
   },
   {
     "value":"#8B0000",
-    "named":true,
+    "css":true,
     "name":"darkred"
   },
   {
     "value":"#800000",
     "vga":true,
-    "named":true,
+    "css":true,
     "name":"maroon"
   },
   {
@@ -2090,7 +2090,7 @@ module.exports = [
   {
     "value":"#FFFFFF",
     "vga":true,
-    "named":true,
+    "css":true,
     "name":"white"
   },
   {
@@ -2103,34 +2103,34 @@ module.exports = [
   },
   {
     "value":"#DCDCDC",
-    "named":true,
+    "css":true,
     "name":"gainsboro"
   },
   {
     "value":"#D3D3D3",
-    "named":true,
+    "css":true,
     "name":"lightgrey"
   },
   {
     "value":"#C0C0C0",
     "vga":true,
-    "named":true,
+    "css":true,
     "name":"silver"
   },
   {
     "value":"#A9A9A9",
-    "named":true,
+    "css":true,
     "name":"darkgray"
   },
   {
     "value":"#808080",
     "vga":true,
-    "named":true,
+    "css":true,
     "name":"gray"
   },
   {
     "value":"#696969",
-    "named":true,
+    "css":true,
     "name":"dimgray"
   },
   {
@@ -2140,7 +2140,7 @@ module.exports = [
   {
     "value":"#000000",
     "vga":true,
-    "named":true,
+    "css":true,
     "name":"black"
   },
   {
@@ -2529,7 +2529,7 @@ module.exports = [
   },
   {
     "value":"#F5F5F5",
-    "named":true,
+    "css":true,
     "name":"whitesmoke"
   }
 ]

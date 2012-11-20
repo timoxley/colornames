@@ -9,7 +9,9 @@
     <div class="navbar-inner">
       <div class="container-fluid">
         <a class="brand" href="#">Colors</a>
-        <ul class="nav pull-right"><li><a href="#" id="toggle" class="btn">Toggle Background Color</a></li></ul>
+        <ul class="nav pull-right">
+          <li><a href="#" id="toggle" class="btn">Toggle Background Color</a></li>
+        </ul>
       </div>
     </div>
   </div>
@@ -48,17 +50,28 @@
       transition: background-color 0.2s ease-out;
       -webkit-transition: background-color 0.2s ease-out;
     }
+
+    .hide {
+      opacity: 0;
+      transition: opacity 0.2s ease-out;
+    }
+
+    .show {
+      opacity: 1;
+      transition: opacity 0.2s ease-out;
+    }
   </style>
   <script>
-    var allColors = require('colors').all
+    var allColors = require('colors').all()
     var domify = require('component-domify')
     var classes = require('component-classes')
-
+    var toArray = require('timoxley-to-array')
     var toggle = document.getElementById('toggle')
     var content = document.getElementById('content')
 
     toggle.addEventListener('click', function(e) {
       e.preventDefault()
+      classes(toggle).toggle('active')
       classes(document.body).toggle('dark')
       classes(document.body).toggle('light')
     })
@@ -68,19 +81,21 @@
     }
     function renderOne(color) {
       content.appendChild(domify([
-        '<div class="color" style="background-color: '+color.value+'">',
+        '<div ',
+          'style="background-color: '+color.value+'" ',
+          'class="color ',
+            color.css ? 'css ' : '',
+            color.vga ? 'vga ' : '',
+          'show">',
         '  <div class="info">',
         '    <div class="badge">'+color.name+'</div>',
-//        color.named && '<span class="badge"><small>CSS &#10003;</small></span>',
-//        color.vga && '<span class="badge"><small>VGA &#10003;</small></span>',
         '  </div>',
         '</div>'
       ].join('')))
     }
 
     render(allColors)
+
   </script>
   </body>
 </html>
-
-

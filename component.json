@@ -7,7 +7,8 @@
   "dependencies": {},
   "development": {
     "component/domify": "*",
-    "component/classes": "*"
+    "component/classes": "*",
+    "timoxley/to-array": "*"
   },
   "license": "MIT",
   "scripts": [
