@@ -20,7 +20,8 @@ var vgaColors = colors.filter(function(color){
  */
 
 module.exports = function(name) {
-  return module.exports.get(name).value
+  var color = module.exports.get(name)
+  return color && color.value
 }
 
 /**
