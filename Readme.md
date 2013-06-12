@@ -55,5 +55,4 @@ colors.get('red')
 
   MIT
   
-  
-![color table](https://f.cloud.github.com/assets/43438/643948/367eafee-d381-11e2-87cf-865c5baa988b.png)
+![example-color-table-](https://f.cloud.github.com/assets/43438/643981/f57948a0-d381-11e2-99fd-197c44065564.png)
