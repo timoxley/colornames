@@ -1,4 +1,3 @@
-
 # colors
 
   Map color names to HEX color values.
@@ -55,3 +54,6 @@ colors.get('red')
 ## License
 
   MIT
+  
+  
+![color table](https://f.cloud.github.com/assets/43438/643948/367eafee-d381-11e2-87cf-865c5baa988b.png)
