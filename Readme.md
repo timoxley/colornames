@@ -1,6 +1,13 @@
-# colors
+# colornames
 
 Convert color names to HEX color values.
+
+[![NPM](https://nodei.co/npm/timoxley-colornames.png)](https://nodei.co/npm/timoxley-colornames/)
+
+[![Build Status](https://travis-ci.org/timoxley/colornames.png?branch=master)](https://travis-ci.org/timoxley/colornames)
+[![Dependency Status](https://david-dm.org/timoxley/colornames.png)](https://david-dm.org/timoxley/colornames)
+
+
 
 ## Installation
 
