@@ -1,6 +1,6 @@
 {
   "name": "colornames",
-  "version": "0.0.0",
+  "version": "0.0.2",
   "description": "Map color names to HEX color values.",
   "main": "index.js",
   "directories": {

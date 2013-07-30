@@ -11,7 +11,11 @@ Convert color names to HEX color values.
 
 ## Installation
 
+### Component
     $ component install timoxley/colornames
+
+### Node/Browserify
+    $ npm install colornames
 
 ## Example
 
