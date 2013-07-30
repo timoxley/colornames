@@ -28,21 +28,25 @@ Get all color names data.
 
 ## Examples
 
+```js
+var toHex = require('colornames')
+```
+
 ### VGA color names
 ```js
-colornames('red') // => "#FF0000"
-colornames('blue') // => "#0000FF"
+toHex('red') // => "#FF0000"
+toHex('blue') // => "#0000FF"
 ```
 
 ### CSS color names
 ```js
-colornames('lightsalmon') // => "#FFA07A"
-colornames('mediumvioletred') // => "#C71585"
+toHex('lightsalmon') // => "#FFA07A"
+toHex('mediumvioletred') // => "#C71585"
 ```
 
 ### Get meta data about a color
 ```js
-colornames.get('red')
+toHex.get('red')
 // =>
 {
   name: "red",
