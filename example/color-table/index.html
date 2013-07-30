@@ -15,7 +15,7 @@
       </div>
     </div>
   </div>
-  <div class="row" id="content"></div>
+  <div id="content"></div>
   <script src="../../build/build.js"></script>
   <style>
     .color {
@@ -25,15 +25,12 @@
       text-align: center;
       padding: 50px;
       margin: 10px;
+      clear: both;
     }
     .info {
-      opacity: 0;
-      transition: opacity 1s ease-out;
     }
 
     .color:hover .info {
-      opacity: 1;
-      transition: opacity 0.1s ease-in;
     }
     .color .badge {
       margin-bottom: 5px;
@@ -52,13 +49,9 @@
     }
 
     .hide {
-      opacity: 0;
-      transition: opacity 0.2s ease-out;
     }
 
     .show {
-      opacity: 1;
-      transition: opacity 0.2s ease-out;
     }
   </style>
   <script>
@@ -83,12 +76,12 @@
       content.appendChild(domify([
         '<div ',
           'style="background-color: '+color.value+'" ',
-          'class="color ',
+          'class="row color ',
             color.css ? 'css ' : '',
             color.vga ? 'vga ' : '',
           'show">',
         '  <div class="info">',
-        '    <div class="badge">'+color.name+'</div>',
+        '    <div class="">'+color.name+'</div>',
         '  </div>',
         '</div>'
       ].join(''))[0])
