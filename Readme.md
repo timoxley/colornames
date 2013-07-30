@@ -1,32 +1,12 @@
 # colors
 
-  Map color names to HEX color values.
+Convert color names to HEX color values.
 
 ## Installation
 
     $ component install timoxley/colornames
 
-## API
-
-### colornames(name)
-Get HEX code for a color name, or `undefined` if unknown.
-
-### .get(name)
-All known data about color, including whether valid VGA or CSS color
-name.
-
-### .get.vga(name)
-HEX code for a color name, only if the color is a valid VGA color
-name.
-
-### .get.css(name)
-HEX code for a color name, only if the color is a valid CSS color
-name.
-
-###.all()
-Get all color names data.
-
-## Examples
+## Example
 
 ```js
 var toHex = require('colornames')
@@ -55,6 +35,27 @@ toHex.get('red')
   vga: true
 }
 ```
+
+## API
+
+### colornames(name)
+Get HEX code for a color name, or `undefined` if unknown.
+
+### .get(name)
+All known data about color, including whether valid VGA or CSS color
+name.
+
+### .get.vga(name)
+HEX code for a color name, only if the color is a valid VGA color
+name.
+
+### .get.css(name)
+HEX code for a color name, only if the color is a valid CSS color
+name.
+
+###.all()
+Get all color names data.
+
 ## License
 
   MIT
