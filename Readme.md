@@ -4,11 +4,11 @@
 
 ## Installation
 
-    $ component install timoxley/colors
+    $ component install timoxley/colornames
 
 ## API
 
-### colors(name)
+### colornames(name)
 Get HEX code for a color name, or `undefined` if unknown.
 
 ### .get(name)
@@ -30,19 +30,19 @@ Get all color names data.
 
 ### VGA color names
 ```js
-colors('red') // => "#FF0000"
-colors('blue') // => "#0000FF"
+colornames('red') // => "#FF0000"
+colornames('blue') // => "#0000FF"
 ```
 
 ### CSS color names
 ```js
-colors('lightsalmon') // => "#FFA07A"
-colors('mediumvioletred') // => "#C71585"
+colornames('lightsalmon') // => "#FFA07A"
+colornames('mediumvioletred') // => "#C71585"
 ```
 
 ### Get meta data about a color
 ```js
-colors.get('red')
+colornames.get('red')
 // =>
 {
   name: "red",
@@ -55,6 +55,6 @@ colors.get('red')
 
   MIT
 
-## Color Map
+## Complete Color Map
 
 ![example-color-table-](https://f.cloud.github.com/assets/43438/643981/f57948a0-d381-11e2-99fd-197c44065564.png)
