@@ -1,0 +1,21 @@
+{
+  "name": "colornames",
+  "version": "0.0.0",
+  "description": "Map color names to HEX color values.",
+  "main": "index.js",
+  "directories": {
+    "example": "example"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/timoxley/colornames.git"
+  },
+  "author": "Tim Oxley",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/timoxley/colornames/issues"
+  }
+}
