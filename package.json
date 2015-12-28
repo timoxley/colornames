@@ -1,6 +1,6 @@
 {
   "name": "colornames",
-  "version": "0.0.2",
+  "version": "1.0.0",
   "description": "Map color names to HEX color values.",
   "main": "index.js",
   "directories": {
@@ -15,10 +15,23 @@
   },
   "author": "Tim Oxley",
   "license": "MIT",
+  "keywords": [
+    "color",
+    "colour",
+    "names",
+    "css",
+    "hex",
+    "rgb",
+    "convert"
+  ],
   "bugs": {
     "url": "https://github.com/timoxley/colornames/issues"
   },
   "devDependencies": {
-    "tape": "~1.0.4"
+    "tape": "^4.4.0"
+  },
+  "homepage": "https://github.com/timoxley/colornames#readme",
+  "dependencies": {
+    "tape": "^1.0.4"
   }
 }
