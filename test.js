@@ -3,9 +3,10 @@ var test = require('tape')
 var toHex = require('./index.js')
 
 test('maps VGA color names to HEX values', function(t) {
-  t.plan(2)
+  t.plan(3)
   t.equal(toHex('red'), '#FF0000')
   t.equal(toHex('blue'), '#0000FF')
+  t.equal(toHex('Red'), '#FF0000')
 })
 
 test('maps CSS color names to HEX values', function(t) {
@@ -23,4 +24,3 @@ test('meta data about a color', function(t) {
     vga: true
   })
 })
-
