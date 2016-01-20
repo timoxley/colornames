@@ -34,6 +34,7 @@ module.exports = function(name) {
 
 module.exports.get = function(name) {
   name = name || ''
+  name = name.toLowerCase()
   name = name.trim()
   return colors.filter(function(color){
     return color.name === name
@@ -61,6 +62,7 @@ module.exports.all = module.exports.get.all = function() {
 module.exports.get.css = function(name) {
   if (!name) return cssColors
   name = name || ''
+  name = name.toLowerCase()
   name = name.trim()
   return cssColors.filter(function(color){
     return color.name === name
@@ -72,6 +74,7 @@ module.exports.get.css = function(name) {
 module.exports.get.vga = function(name) {
   if (!name) return vgaColors
   name = name || ''
+  name = name.toLowerCase()
   name = name.trim()
   return vgaColors.filter(function(color){
     return color.name === name
