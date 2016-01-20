@@ -33,7 +33,7 @@ module.exports = function(name) {
  */
 
 module.exports.get = function(name) {
-  name = name || ''
+  name = name.toLowerCase() || ''
   name = name.trim()
   return colors.filter(function(color){
     return color.name === name
