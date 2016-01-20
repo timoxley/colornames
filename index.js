@@ -34,7 +34,7 @@ module.exports = function(name) {
 
 module.exports.get = function(name) {
   name = name || ''
-  name = name.trim()
+  name = name.trim().toLowerCase()
   return colors.filter(function(color){
     return color.name === name
   }).pop()
