@@ -24,3 +24,8 @@ test('meta data about a color', function(t) {
   })
 })
 
+test('does not map uppercase VGA color names to HEX values', function(t) {
+  t.plan(2)
+  t.notEqual(toHex('RED'), '#FF0000')
+  t.notEqual(toHex('BLUE'), '#0000FF')
+})
