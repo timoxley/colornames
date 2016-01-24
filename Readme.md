@@ -47,6 +47,13 @@ toHex.get('red')
 }
 ```
 
+### Conversion is case-insensitive
+```js
+toHex('Blue') // => "#0000FF"
+toHex('BLUE') // => "#0000FF"
+toHex('BlUe') // => "#0000FF"
+```
+
 ## API
 
 ### colornames(name)
