@@ -34,7 +34,7 @@ module.exports = function(name) {
 
 module.exports.get = function(name) {
   name = name || ''
-  name = name.trim()
+  name = name.trim().toLowerCase()
   return colors.filter(function(color){
     return color.name === name
   }).pop()
@@ -61,7 +61,7 @@ module.exports.all = module.exports.get.all = function() {
 module.exports.get.css = function(name) {
   if (!name) return cssColors
   name = name || ''
-  name = name.trim()
+  name = name.trim().toLowerCase()
   return cssColors.filter(function(color){
     return color.name === name
   }).pop()
@@ -72,7 +72,7 @@ module.exports.get.css = function(name) {
 module.exports.get.vga = function(name) {
   if (!name) return vgaColors
   name = name || ''
-  name = name.trim()
+  name = name.trim().toLowerCase()
   return vgaColors.filter(function(color){
     return color.name === name
   }).pop()
