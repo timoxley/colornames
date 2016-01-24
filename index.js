@@ -63,7 +63,7 @@ module.exports.get.css = function(name) {
   name = name || ''
   name = name.trim().toLowerCase()
   return cssColors.filter(function(color){
-    return color.name === name
+    return color.name.toLowerCase() === name
   }).pop()
 }
 
