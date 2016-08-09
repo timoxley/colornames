@@ -1,6 +1,6 @@
 # colornames
 
-Convert color names to HEX color values.
+### Convert color names to HEX color values.
 
 [![NPM](https://nodei.co/npm/colornames.png?downloads=true&downloadRank=true)](https://nodei.co/npm-dl/colornames/)
 [![NPM](https://nodei.co/npm-dl/colornames.png?months=3&height=3&chrome)](https://nodei.co/npm/colornames/)
