@@ -9,6 +9,11 @@ module.exports = [
     "name":"crimson"
   },
   {
+    "value": "#C8A2C8",
+    "css":true,
+    "name":"lilac"
+  },
+  {
     "value":"#FFB6C1",
     "css":true,
     "name":"lightpink"
